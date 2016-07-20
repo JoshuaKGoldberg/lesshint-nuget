@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>lesshint</id>
+    <version>2.0.0</version>
+    <authors>lesshint</authors>
+    <owners>joshuakgoldberg</owners>
+    <licenseUrl>https://github.com/lesshint/lesshint/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/lesshint/lesshint</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Lesshint is a tool to aid you in writing clean and consistent Less.</description>
+    <tags>lesshint less css</tags>
+  </metadata>
+  <files>
+    <file src="node_modules\**" target="tools\node_modules" />
+  </files>
+</package>
